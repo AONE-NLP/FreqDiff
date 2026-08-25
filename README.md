@@ -62,6 +62,37 @@ torch-scatter
 Install the PyTorch, DGL, and torch-scatter builds that match your CUDA version.
 
 
+## 💻 Basic Usage
+
+Run commands from the package root.
+
+Train on ICEWS14:
+
+```bash
+python src/main.py --dataset ICEWS14
+```
+
+Evaluate a saved ICEWS14 checkpoint:
+
+```bash
+python src/main.py --dataset ICEWS14 --test
+```
+
+## 🔦 Useful Hyperparameters
+
+Commonly tuned FreqDiff-specific arguments:
+
+```text
+--use_freq_enhance / --no_freq_enhance
+--group
+--num_filters
+--freq_residual_alpha
+--use_fft_loss / --no_fft_loss
+--fft_loss_weight
+--fft_loss_type {l1,l2,SmoothL1Loss,mix_loss}
+```
+
+
 ## 📌 Citation
 
 If you find our work or code useful for your research, please consider citing our KDD 2026 paper:
