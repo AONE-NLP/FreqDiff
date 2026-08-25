@@ -7,6 +7,6 @@
   <img src="https://img.shields.io/badge/EMNLP-2026-blue" alt="EMNLP 2026">
 </p>
 
-> **Official PyTorch Implementation of the EMNLP 2026 (Main) paper:** > *Denoising the Future: Context-Aware Spectral Diffusion for Temporal Knowledge Graph Extrapolation*
+> **Official PyTorch Implementation of the EMNLP 2026 (Main) paper:** *Denoising the Future: Context-Aware Spectral Diffusion for Temporal Knowledge Graph Extrapolation*
 
 ---
