@@ -16,7 +16,7 @@
 
 **FreqDiff** is a frequency-aware diffusion framework for Temporal Knowledge Graph extrapolation that formulates future object prediction as **query-slot denoising**. It employs a dual-stream denoiser that combines temporal dependency modeling with **context-aware spectral filtering**, dynamically synthesizing history-conditioned filters from learnable spectral bases to recalibrate informative frequency components, while a frequency-domain consistency objective further guides target reconstruction in the spectral space.
 
-![](images/Model.pdf)
+![](images/Model.png)
 
 
 
