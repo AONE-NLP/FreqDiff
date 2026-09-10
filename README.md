@@ -99,7 +99,7 @@ Commonly tuned FreqDiff-specific arguments:
 
 ## 📌 Citation
 
-If you find our work or code useful for your research, please consider citing our KDD 2026 paper:
+If you find our work or code useful for your research, please consider citing our paper:
 
 ```
 
